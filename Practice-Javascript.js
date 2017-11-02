@@ -123,3 +123,4 @@ var text = "";
 for (i = 0; i < gameList.length; i++) {
 	text += "I love " + gameList[i] + "\n";
 }	
+alert (text);
