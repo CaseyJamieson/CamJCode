@@ -116,11 +116,13 @@ genre[4] = "strategy";
 // Returning data from the array
 alert ("I like " + genre[4] + " games.");
 
+// List of all the games I like
 var gameList = new Array ("Endless Legends", "Batman", "Civilization 5", "CS:GO", "Portal Knights", "Minecraft", 
 	"Grand Theft Auto 5", "Skyrim", "Warface", "Far Cry Primal");
-	
+
+// Adds writting to the list
 var text = "";
 for (i = 0; i < gameList.length; i++) {
 	text += "I love " + gameList[i] + "\n";
 }	
-alert (text);
+alert (text); // Shows the list on the webpage
