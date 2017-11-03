@@ -126,14 +126,16 @@ for (i = 0; i < gameList.length; i++) {
 }	
 alert (text); // Shows the list on the webpage
 
+cityName = new Array ("Indianapolis", "New York", "Tokyo", "London");
 // Start of city menu
 // Gives the cities distances from each other
-distance = new Array {
+distance = new Array (
 	new Array (0, 648, 6476, 4000),
 	new Array (648, 0, 6760, 3470),
 	new Array (6476, 6760, 0, 3470),
-	new Array (4000, 3470, 5956, 0),
-};		
+	new Array (4000, 3470, 5956, 0)
+);
+function getCity(){
 var theCity = ""; //Will hold the city number
 	
 // List of cities with their number	
@@ -157,7 +159,8 @@ function main() {
 	output = "The distance from " + cityName[from];
 	output += " to " + cityName[to];
 	output += " is " + result + " miles.";  // Tells you the answer in a sentence
-}
-main()
+	alert (output);
+}// End main
+main();
 // End of city menu	
 	
