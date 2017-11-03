@@ -87,8 +87,7 @@ while (answer != "5") {
 	answer = prompt ("What is 3+ 2?");
 	if (answer == "5") {
 		alert ("Great!"); // Congratulates you if you get 5
-	} else {
-	  alert ("Try again..."); // Tells you to try again if you don't get 5
+	} else {	  alert ("Try again..."); // Tells you to try again if you don't get 5
 	}
 }	
 
@@ -146,7 +145,7 @@ cityMenu += "3) London \n";
 
 // Shows the city menu
 theCity = prompt (cityMenu);
-return theCity:
+return theCity;
 }
 
 // Works out the distance between cities
