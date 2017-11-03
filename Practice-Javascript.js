@@ -162,5 +162,5 @@ function main() {
 	alert (output);
 }// End main
 main();
-// End of city menu	
-	
+// End of city menu	 
+	 
