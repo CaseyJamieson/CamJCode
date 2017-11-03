@@ -133,7 +133,7 @@ distance = new Array {
 	new Array (648, 0, 6760, 3470),
 	new Array (6476, 6760, 0, 3470),
 	new Array (4000, 3470, 5956, 0),
-		
+};		
 var theCity = ""; //Will hold the city number
 	
 // List of cities with their number	
@@ -146,7 +146,7 @@ cityMenu += "3) London \n";
 // Shows the city menu
 theCity = prompt (cityMenu);
 return theCity;
-}
+} // End getCity
 
 // Works out the distance between cities
 function main() {
