@@ -203,4 +203,10 @@ function findLongestWord(str) {
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
 
+// Make the first letter of each word a capital
+function titleCase(str) {
+  return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
+}
+
+titleCase("I'm a little tea pot");
 
