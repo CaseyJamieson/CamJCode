@@ -139,7 +139,7 @@ function getCity(){
 var theCity = ""; //Will hold the city number
 	
 // List of cities with their number	
-car cityMenu = "Please choose a city by typing a number: \n";
+var cityMenu = "Please choose a city by typing a number: \n";
 cityMenu += "0) Indianapolis \n";
 cityMenu += "1) New York \n";
 cityMenu += "2) Tokyo \n";
