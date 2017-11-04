@@ -14,7 +14,7 @@ Including :
 I will have different files for each of these coding languages.
 
 
-<em>News</em>
+<h1><em><bold>News</bold></em></h1>
 
 - I have added a file for all JavaScript projects.
 - I have added a file for finding the largest number using JavaScript file.
